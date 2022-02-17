@@ -2,8 +2,10 @@
   "name": "example-shop",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://deniskots.github.io/CoffeShop",
   "dependencies": {
     "axios": "^0.25.0",
+    "gh-pages": "^3.2.3",
     "macro-css": "^1.0.5",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
@@ -13,6 +15,8 @@
     "react-scripts": "^5.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
