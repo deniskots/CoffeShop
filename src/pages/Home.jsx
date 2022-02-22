@@ -40,7 +40,6 @@ function Home({
                             alt="remove"
                         />
                     )}
-                    {/*создаем контралируемый инпут*/}
                     <input onChange={onChangeSearchInput} value={searchValue} placeholder="Поиск..."/>
                     <span></span>
                 </div>
