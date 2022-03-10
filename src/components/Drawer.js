@@ -32,7 +32,7 @@ function Drawer({onClose, items = [], onRemove}) {
     return (
         <div className='overlay'>
             <div className="drawer d-flex flex-column">
-                <h2 className='mb-20 d-flex justify-between align-center '>Корзина
+                <h2 className='mb-20 d-flex justify-between align-center'>Корзина
                     <img onClick={onClose} className='removeBtn cu-p'
                          width={18} height={18}
                          src="/img/remove.svg"

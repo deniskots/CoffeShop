@@ -126,9 +126,9 @@ function App() {
                     <Route path="/favorites"
                            element={<Favorites
                                onAddToFavorite={onAddToFavorite}
-                           />}/>
+                           />} exact/>
                     <Route path="/orders"
-                           element={<Orders/>}/>
+                           element={<Orders/>} exact/>
                 </Routes>
 
             </div>

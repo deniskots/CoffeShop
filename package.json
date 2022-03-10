@@ -2,7 +2,6 @@
   "name": "example-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://deniskots.github.io/CoffeShop",
   "dependencies": {
     "axios": "^0.25.0",
     "gh-pages": "^3.2.3",
